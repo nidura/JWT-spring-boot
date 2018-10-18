@@ -1,0 +1,2 @@
+INSERT INTO jwt_test.person (index_no, person_name, mobile_no, nic) VALUES (1, 'nidura', '075313131', '9523342423v');
+INSERT INTO jwt_test.person (index_no, person_name, mobile_no, nic) VALUES (2, 'prageeth', '077421313', '97423423423v');
