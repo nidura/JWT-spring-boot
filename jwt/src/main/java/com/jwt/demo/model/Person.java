@@ -14,12 +14,13 @@ public class Person implements Serializable {
 
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
+    @Column(name = "index_no")
     private long id;
-    @Column
+    @Column(name = "person_name")
     private String personName;
-    @Column
+    @Column(name = "mobile_no")
     private String mobileNo;
-    @Column
+    @Column(name = "nic")
     private String nic;
 
     public Person() {
